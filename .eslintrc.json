@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "extends": [
+    "plugin:vue/vue3-recommended",
+    "eslint:recommended",
+    "@vue/typescript/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "module"
+  },
+  "rules": {
+    "vue/multi-word-component-names": "off",
+    "@typescript-eslint/no-explicit-any": "warn",
+    "vue/max-attributes-per-line": ["error", {
+      "singleline": 3,
+      "multiline": 1
+    }]
+  }
+}
